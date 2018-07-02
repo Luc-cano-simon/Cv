@@ -1,0 +1,40 @@
+.parallax {
+	/* The image used */
+	background-image: url("http://www.habilelabs.io/wp-content/uploads/2017/09/it-background-5.jpg");
+	opacity: 30%;
+
+
+	min-height: 500px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#Navbar1
+{
+	text-align: center;
+	word-spacing: 10px;
+}
+
+li
+
+{
+	display: inline-block;
+	box-sizing: border-box;
+	color: black;
+	text-align: center;
+
+}
+
+li:hover
+
+{
+	border-bottom: 1px solid black;
+	cursor: pointer;
+	text-decoration: black;
+}
+
