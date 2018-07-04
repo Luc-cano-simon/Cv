@@ -1,23 +1,29 @@
-.parallax {
-	/* The image used */
+@font-face /* changement d'écriture */
+{
+    font-family: 'Pixeled';
+    src: url('Pixeled.ttf') format('truetype') ;
+}
+
+
+
+
+.parallax 
+{
+	/* mon background */
 	background-image: url("http://www.habilelabs.io/wp-content/uploads/2017/09/it-background-5.jpg");
 	opacity: 30%;
-
-
+	/* fonction parallax */
 	min-height: 500px; 
-
-	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-
 #Navbar1
 {
 	text-align: center;
-	word-spacing: 10px;
+	word-spacing: 6px;
 }
 
 li
@@ -27,14 +33,49 @@ li
 	box-sizing: border-box;
 	color: black;
 	text-align: center;
-
+	font-family: 'Pixeled';
+	font-size: 10px;
 }
 
-li:hover
+li:hover /* Au passage de la souris une barre apparait sous le titre */
 
 {
 	border-bottom: 1px solid black;
 	cursor: pointer;
 	text-decoration: black;
+
 }
+
+#xpro /* ID Experiences professionnelle */
+{
+	padding-top: 40px ;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.t1 /* class du titre */
+{
+	border :1px solid grey;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px; 
+}
+
+a /* balise avec des liens sans soulignement */
+{
+	 text-decoration : none;
+}
+
+.divG
+{
+	width: 45%;
+}
+
+.divD
+{
+	width: 45%;
+	float: right;
+}
+
+
 
